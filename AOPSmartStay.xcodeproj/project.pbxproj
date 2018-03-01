@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42323F6203D4777009EBAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42323F5203D4777009EBAE5 /* AppDelegate.swift */; };
+		F42323F8203D4777009EBAE5 /* AOPSSHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42323F7203D4777009EBAE5 /* AOPSSHomePresenter.swift */; };
+		F42323FB203D4777009EBAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42323F9203D4777009EBAE5 /* Main.storyboard */; };
+		F42323FD203D4777009EBAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42323FC203D4777009EBAE5 /* Assets.xcassets */; };
+		F4232400203D4777009EBAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42323FE203D4777009EBAE5 /* LaunchScreen.storyboard */; };
+		F4232410203DB71C009EBAE5 /* AOPSSHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423240F203DB71C009EBAE5 /* AOPSSHomeInteractor.swift */; };
+		F4232412203DB807009EBAE5 /* AOPSSHomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4232411203DB807009EBAE5 /* AOPSSHomeEntity.swift */; };
+		F4232414203DB81D009EBAE5 /* AOPSSHomeRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4232413203DB81D009EBAE5 /* AOPSSHomeRouting.swift */; };
+		F423241B203DD5C5009EBAE5 /* AOPSSBasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423241A203DD5C5009EBAE5 /* AOPSSBasePresenter.swift */; };
+		F423241D203DD5DB009EBAE5 /* AOPSSBaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423241C203DD5DB009EBAE5 /* AOPSSBaseInteractor.swift */; };
+		F4232420203DD5F5009EBAE5 /* AOPSSBaseRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423241F203DD5F5009EBAE5 /* AOPSSBaseRouting.swift */; };
+		F4232422203DD604009EBAE5 /* AOPSSBaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4232421203DD604009EBAE5 /* AOPSSBaseEntity.swift */; };
+		F4232427203DDBE2009EBAE5 /* AOPSSDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4232426203DDBE2009EBAE5 /* AOPSSDataManager.swift */; };
+		F4232429203DDBF8009EBAE5 /* AOPSSNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4232428203DDBF8009EBAE5 /* AOPSSNetworkManager.swift */; };
+		F432427E203E9F3B0057E7F0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F432427C203E9F3B0057E7F0 /* SWRevealViewController.m */; };
+		F4324285203E9F9D0057E7F0 /* AOPSSMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4324284203E9F9D0057E7F0 /* AOPSSMenuPresenter.swift */; };
+		F4324287203E9FB40057E7F0 /* AOPSSMenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4324286203E9FB40057E7F0 /* AOPSSMenuInteractor.swift */; };
+		F4324289203E9FC40057E7F0 /* AOPSSMenuRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4324288203E9FC40057E7F0 /* AOPSSMenuRouting.swift */; };
+		F432428B203E9FD40057E7F0 /* AOPSSMenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432428A203E9FD40057E7F0 /* AOPSSMenuEntity.swift */; };
+		F49F8BBC204568B500E74E32 /* AOPSSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F8BBB204568B500E74E32 /* AOPSSConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F42323F2203D4777009EBAE5 /* AOPSmartStay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOPSmartStay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42323F5203D4777009EBAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F42323F7203D4777009EBAE5 /* AOPSSHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSHomePresenter.swift; sourceTree = "<group>"; };
+		F42323FA203D4777009EBAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42323FC203D4777009EBAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42323FF203D4777009EBAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4232401203D4777009EBAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F423240F203DB71C009EBAE5 /* AOPSSHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSHomeInteractor.swift; sourceTree = "<group>"; };
+		F4232411203DB807009EBAE5 /* AOPSSHomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSHomeEntity.swift; sourceTree = "<group>"; };
+		F4232413203DB81D009EBAE5 /* AOPSSHomeRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSHomeRouting.swift; sourceTree = "<group>"; };
+		F423241A203DD5C5009EBAE5 /* AOPSSBasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSBasePresenter.swift; sourceTree = "<group>"; };
+		F423241C203DD5DB009EBAE5 /* AOPSSBaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSBaseInteractor.swift; sourceTree = "<group>"; };
+		F423241F203DD5F5009EBAE5 /* AOPSSBaseRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSBaseRouting.swift; sourceTree = "<group>"; };
+		F4232421203DD604009EBAE5 /* AOPSSBaseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSBaseEntity.swift; sourceTree = "<group>"; };
+		F4232426203DDBE2009EBAE5 /* AOPSSDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSDataManager.swift; sourceTree = "<group>"; };
+		F4232428203DDBF8009EBAE5 /* AOPSSNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSNetworkManager.swift; sourceTree = "<group>"; };
+		F432427B203E9F3B0057E7F0 /* AOPSmartStay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOPSmartStay-Bridging-Header.h"; sourceTree = "<group>"; };
+		F432427C203E9F3B0057E7F0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F432427D203E9F3B0057E7F0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F4324284203E9F9D0057E7F0 /* AOPSSMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSMenuPresenter.swift; sourceTree = "<group>"; };
+		F4324286203E9FB40057E7F0 /* AOPSSMenuInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSMenuInteractor.swift; sourceTree = "<group>"; };
+		F4324288203E9FC40057E7F0 /* AOPSSMenuRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSMenuRouting.swift; sourceTree = "<group>"; };
+		F432428A203E9FD40057E7F0 /* AOPSSMenuEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSMenuEntity.swift; sourceTree = "<group>"; };
+		F49F8BBB204568B500E74E32 /* AOPSSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOPSSConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42323EF203D4777009EBAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42323E9203D4777009EBAE5 = {
+			isa = PBXGroup;
+			children = (
+				F42323F4203D4777009EBAE5 /* AOPSmartStay */,
+				F42323F3203D4777009EBAE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42323F3203D4777009EBAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42323F2203D4777009EBAE5 /* AOPSmartStay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42323F4203D4777009EBAE5 /* AOPSmartStay */ = {
+			isa = PBXGroup;
+			children = (
+				F432427F203E9F580057E7F0 /* Menu */,
+				F4232415203DD57A009EBAE5 /* Base Classes */,
+				F423240A203DB4C1009EBAE5 /* Home  */,
+				F4232423203DD6DD009EBAE5 /* Utility */,
+				F42323F5203D4777009EBAE5 /* AppDelegate.swift */,
+				F42323F9203D4777009EBAE5 /* Main.storyboard */,
+				F42323FC203D4777009EBAE5 /* Assets.xcassets */,
+				F42323FE203D4777009EBAE5 /* LaunchScreen.storyboard */,
+				F4232401203D4777009EBAE5 /* Info.plist */,
+			);
+			path = AOPSmartStay;
+			sourceTree = "<group>";
+		};
+		F423240A203DB4C1009EBAE5 /* Home  */ = {
+			isa = PBXGroup;
+			children = (
+				F423240E203DB556009EBAE5 /* Routing */,
+				F423240D203DB51A009EBAE5 /* Entity */,
+				F423240C203DB510009EBAE5 /* Interactor */,
+				F423240B203DB4D9009EBAE5 /* Presenter */,
+			);
+			path = "Home ";
+			sourceTree = "<group>";
+		};
+		F423240B203DB4D9009EBAE5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F42323F7203D4777009EBAE5 /* AOPSSHomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F423240C203DB510009EBAE5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F423240F203DB71C009EBAE5 /* AOPSSHomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F423240D203DB51A009EBAE5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F4232411203DB807009EBAE5 /* AOPSSHomeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F423240E203DB556009EBAE5 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				F4232413203DB81D009EBAE5 /* AOPSSHomeRouting.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		F4232415203DD57A009EBAE5 /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4232419203DD5AA009EBAE5 /* Entity */,
+				F4232418203DD59C009EBAE5 /* Routing */,
+				F4232417203DD593009EBAE5 /* Interactor */,
+				F4232416203DD586009EBAE5 /* Presenter */,
+			);
+			path = "Base Classes";
+			sourceTree = "<group>";
+		};
+		F4232416203DD586009EBAE5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F423241A203DD5C5009EBAE5 /* AOPSSBasePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F4232417203DD593009EBAE5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F423241C203DD5DB009EBAE5 /* AOPSSBaseInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F4232418203DD59C009EBAE5 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				F423241F203DD5F5009EBAE5 /* AOPSSBaseRouting.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		F4232419203DD5AA009EBAE5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F4232421203DD604009EBAE5 /* AOPSSBaseEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F4232423203DD6DD009EBAE5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F432427A203E9F070057E7F0 /* SWRevealViewController */,
+				F4232425203DD6F5009EBAE5 /* Network Manager */,
+				F4232424203DD6EA009EBAE5 /* Data Manager */,
+				F49F8BBB204568B500E74E32 /* AOPSSConstants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F4232424203DD6EA009EBAE5 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F4232426203DDBE2009EBAE5 /* AOPSSDataManager.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		F4232425203DD6F5009EBAE5 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F4232428203DDBF8009EBAE5 /* AOPSSNetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		F432427A203E9F070057E7F0 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F432427D203E9F3B0057E7F0 /* SWRevealViewController.h */,
+				F432427C203E9F3B0057E7F0 /* SWRevealViewController.m */,
+				F432427B203E9F3B0057E7F0 /* AOPSmartStay-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		F432427F203E9F580057E7F0 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F4324283203E9F8A0057E7F0 /* Entity */,
+				F4324282203E9F740057E7F0 /* Routing */,
+				F4324281203E9F6C0057E7F0 /* Interactor */,
+				F4324280203E9F630057E7F0 /* Presenter */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		F4324280203E9F630057E7F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F4324284203E9F9D0057E7F0 /* AOPSSMenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F4324281203E9F6C0057E7F0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F4324286203E9FB40057E7F0 /* AOPSSMenuInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F4324282203E9F740057E7F0 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				F4324288203E9FC40057E7F0 /* AOPSSMenuRouting.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		F4324283203E9F8A0057E7F0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F432428A203E9FD40057E7F0 /* AOPSSMenuEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42323F1203D4777009EBAE5 /* AOPSmartStay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4232404203D4777009EBAE5 /* Build configuration list for PBXNativeTarget "AOPSmartStay" */;
+			buildPhases = (
+				F42323EE203D4777009EBAE5 /* Sources */,
+				F42323EF203D4777009EBAE5 /* Frameworks */,
+				F42323F0203D4777009EBAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOPSmartStay;
+			productName = AOPSmartStay;
+			productReference = F42323F2203D4777009EBAE5 /* AOPSmartStay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42323EA203D4777009EBAE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ArtOfProgramming;
+				TargetAttributes = {
+					F42323F1203D4777009EBAE5 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F42323ED203D4777009EBAE5 /* Build configuration list for PBXProject "AOPSmartStay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42323E9203D4777009EBAE5;
+			productRefGroup = F42323F3203D4777009EBAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42323F1203D4777009EBAE5 /* AOPSmartStay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42323F0203D4777009EBAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4232400203D4777009EBAE5 /* LaunchScreen.storyboard in Resources */,
+				F42323FD203D4777009EBAE5 /* Assets.xcassets in Resources */,
+				F42323FB203D4777009EBAE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42323EE203D4777009EBAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4232422203DD604009EBAE5 /* AOPSSBaseEntity.swift in Sources */,
+				F423241D203DD5DB009EBAE5 /* AOPSSBaseInteractor.swift in Sources */,
+				F4324287203E9FB40057E7F0 /* AOPSSMenuInteractor.swift in Sources */,
+				F49F8BBC204568B500E74E32 /* AOPSSConstants.swift in Sources */,
+				F4324285203E9F9D0057E7F0 /* AOPSSMenuPresenter.swift in Sources */,
+				F4232427203DDBE2009EBAE5 /* AOPSSDataManager.swift in Sources */,
+				F4232414203DB81D009EBAE5 /* AOPSSHomeRouting.swift in Sources */,
+				F4232420203DD5F5009EBAE5 /* AOPSSBaseRouting.swift in Sources */,
+				F4232412203DB807009EBAE5 /* AOPSSHomeEntity.swift in Sources */,
+				F432428B203E9FD40057E7F0 /* AOPSSMenuEntity.swift in Sources */,
+				F423241B203DD5C5009EBAE5 /* AOPSSBasePresenter.swift in Sources */,
+				F4232410203DB71C009EBAE5 /* AOPSSHomeInteractor.swift in Sources */,
+				F42323F8203D4777009EBAE5 /* AOPSSHomePresenter.swift in Sources */,
+				F42323F6203D4777009EBAE5 /* AppDelegate.swift in Sources */,
+				F4232429203DDBF8009EBAE5 /* AOPSSNetworkManager.swift in Sources */,
+				F4324289203E9FC40057E7F0 /* AOPSSMenuRouting.swift in Sources */,
+				F432427E203E9F3B0057E7F0 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F42323F9203D4777009EBAE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42323FA203D4777009EBAE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42323FE203D4777009EBAE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42323FF203D4777009EBAE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4232402203D4777009EBAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4232403203D4777009EBAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4232405203D4777009EBAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY4PJB3QWY;
+				INFOPLIST_FILE = AOPSmartStay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AOP.SmartApps.AOPSmartStay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AOPSmartStay/Utility/SWRevealViewController/AOPSmartStay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4232406203D4777009EBAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY4PJB3QWY;
+				INFOPLIST_FILE = AOPSmartStay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AOP.SmartApps.AOPSmartStay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AOPSmartStay/Utility/SWRevealViewController/AOPSmartStay-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42323ED203D4777009EBAE5 /* Build configuration list for PBXProject "AOPSmartStay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4232402203D4777009EBAE5 /* Debug */,
+				F4232403203D4777009EBAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4232404203D4777009EBAE5 /* Build configuration list for PBXNativeTarget "AOPSmartStay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4232405203D4777009EBAE5 /* Debug */,
+				F4232406203D4777009EBAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42323EA203D4777009EBAE5 /* Project object */;
+}
